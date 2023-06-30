@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.ClassesEMetodos {
+namespace CursoCSharp.ClassesEMetodos
+{
     public class Produto {
         public string Nome;
         public double Preco;
@@ -21,7 +20,7 @@ namespace CursoCSharp.ClassesEMetodos {
     }
     class AtributosEstaticos {
         public static void Executar() {
-            var produto1 = new Produto("Caneta", 3.2, 0.1);                  // Obj instanciado usando o construtor explícito
+            var produto1 = new Produto("Caneta", 3.2, 0.1);                  // Obj instanciado usando o construtor explícito não padrão
 
             var produto2 = new Produto() {                                   // Obj instanciado usando o construtor padrão
                 Nome = "Borracha",
