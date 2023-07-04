@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.EstruturasDeControle {
+namespace CursoCSharp.EstruturasDeControle
+{
     class EstruturaIfElseIf {
         public static void Executar() {
             Console.Write("Digite a nota do aluno: ");

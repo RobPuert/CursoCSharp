@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.EstruturasDeControle {
+namespace CursoCSharp.EstruturasDeControle
+{
     class EstruturaDoWhile {
         public static void Executar() {
             /* Enquanto o while tem chance de nunca ser executado caso a expressão nunca seja true, o Do while sempre executará o bloco de código

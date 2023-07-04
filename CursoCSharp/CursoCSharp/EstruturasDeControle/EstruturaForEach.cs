@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.EstruturasDeControle {
+namespace CursoCSharp.EstruturasDeControle
+{
     class EstruturaForEach {
         public static void Executar() {
             var palavra = "Opa!";

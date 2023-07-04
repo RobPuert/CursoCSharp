@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.EstruturasDeControle {
+namespace CursoCSharp.EstruturasDeControle
+{
     class EstruturaIfElse {
         public static void Executar() {
             double nota = 7.0;

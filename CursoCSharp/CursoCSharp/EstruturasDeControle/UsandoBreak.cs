@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.EstruturasDeControle {
+namespace CursoCSharp.EstruturasDeControle
+{
     class UsandoBreak {
         public static void Executar() {
             Random random = new Random();

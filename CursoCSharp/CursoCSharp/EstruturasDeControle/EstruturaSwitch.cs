@@ -1,14 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.EstruturasDeControle {
+namespace CursoCSharp.EstruturasDeControle
+{
     class EstruturaSwitch {
         public static void Executar() {
             Console.Write("Avalie o meu atendimento com uma nota de 1 a 5: ");
-            int.TryParse(Console.ReadLine(), out int nota);                         // Vai pegar o que for digitado e tentar converter em in para atribuir à variável nota.
+            int.TryParse(Console.ReadLine(), out int nota);                         // Vai pegar o que for digitado e tentar converter em int para atribuir à variável nota.
 
-            switch (nota) {                                                    // diferente do If que trabalho com true or false, o switch trabalha com opções como um menu
+            switch (nota) {                                                    // diferente do If que trabalha com true or false, o switch trabalha com opções como um menu
                 case 0:
                     Console.WriteLine("Péssimo");
                     break;

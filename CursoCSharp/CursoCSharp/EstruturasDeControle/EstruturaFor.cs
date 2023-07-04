@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.EstruturasDeControle {
+namespace CursoCSharp.EstruturasDeControle
+{
     class EstruturaFor {
         public static void Executar() {
 
@@ -34,7 +33,7 @@ namespace CursoCSharp.EstruturasDeControle {
 
                 somatorio += notaAtual;
             }
-            double media = tamanhoTurma > 0 ? somatorio / tamanhoTurma : 0;     // se o tamanho da turma for 0, media recebe somatorio / tamanho da turma, senão recebe 0
+            double media = tamanhoTurma > 0 ? somatorio / tamanhoTurma : 0;     // se o tamanho da turma for maior que 0, media recebe somatorio / tamanho da turma, senão recebe 0
             Console.WriteLine("Media da turma: {0}", media);
         }
     }
