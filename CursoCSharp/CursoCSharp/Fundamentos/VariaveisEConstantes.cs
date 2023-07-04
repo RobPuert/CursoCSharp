@@ -6,10 +6,10 @@ namespace CursoCSharp.Fundamentos {
     class VariaveisEConstantes {
         public static void Executar() {
             // area da circunferencia
-            double raio = 4.5;  //variável raio do tipo double recebe 4.5
+            double raio = 4.5;  //variável raio do tipo double recebe 4.5. Double é para números decimais como o float em python
             const double PI = 3.14;  //mesmo princípio para uma constante
 
-            raio = 5.5;  //variável pode receber outra atribuição (do mesmo tipo) e não precisa repetir o tipo
+            raio = 5.5;  //variável pode receber outra atribuição (do mesmo tipo) e não precisa repetir o tipo ao reatribuir um valor
             // PI = 3.1415    const não pode receber outra atribuição
 
             double area = PI * raio * raio;

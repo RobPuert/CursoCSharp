@@ -8,7 +8,7 @@ namespace CursoCSharp.ClassesEMetodos {
             Console.WriteLine("{0:D2}/{1:D2}/{2}", dia, mes, ano);
         }
         public static void Executar() {
-            Formatar(mes: 1, dia: 6, ano: 1996);            // Parâmetros Nomeados permitem que você passe os parâmetros em qualquer orem e fica fácil identificá-los
+            Formatar(mes: 1, dia: 6, ano: 1996);            // Parâmetros Nomeados permitem que você passe os parâmetros em qualquer ordem e fica fácil identificá-los
         }
     }
 }

@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.Fundamentos {
+namespace CursoCSharp.Fundamentos
+{
     class Inferencia {
         public static void Executar() {
             var nome = "Rob"; //Isso funciona. O C# infere, deduz o tipo da variável pelo dado atribuido

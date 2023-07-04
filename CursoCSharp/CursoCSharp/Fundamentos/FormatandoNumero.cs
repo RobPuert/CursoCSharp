@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Globalization;
 
-namespace CursoCSharp.Fundamentos {
+namespace CursoCSharp.Fundamentos
+{
     class FormatandoNumero {
         public static void Executar() {
             double valor = 15.175;

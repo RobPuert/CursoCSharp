@@ -12,3 +12,17 @@ C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\Curs
 C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.dll
 C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.pdb
 C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.genruntimeconfig.cache
+C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.exe
+C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.deps.json
+C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.runtimeconfig.json
+C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.runtimeconfig.dev.json
+C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.dll
+C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.pdb
+C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.csproj.AssemblyReference.cache
+C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.AssemblyInfoInputs.cache
+C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.AssemblyInfo.cs
+C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.dll
+C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.pdb
+C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.genruntimeconfig.cache
