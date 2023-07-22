@@ -1,36 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rob_p\\source\\repos\\CursoCSharp\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj": {}
+    "D:\\Users\\rob_p\\Source\\Repos\\CursoCSharp\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rob_p\\source\\repos\\CursoCSharp\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj": {
+    "D:\\Users\\rob_p\\Source\\Repos\\CursoCSharp\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rob_p\\source\\repos\\CursoCSharp\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj",
+        "projectUniqueName": "D:\\Users\\rob_p\\Source\\Repos\\CursoCSharp\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj",
         "projectName": "CursoCSharp",
-        "projectPath": "C:\\Users\\rob_p\\source\\repos\\CursoCSharp\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj",
+        "projectPath": "D:\\Users\\rob_p\\Source\\Repos\\CursoCSharp\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj",
         "packagesPath": "C:\\Users\\rob_p\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rob_p\\source\\repos\\CursoCSharp\\CursoCSharp\\CursoCSharp\\obj\\",
+        "outputPath": "D:\\Users\\rob_p\\Source\\Repos\\CursoCSharp\\CursoCSharp\\CursoCSharp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\rob_p\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +37,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -59,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,7 +9,7 @@ namespace CursoCSharp.EstruturasDeControle
 
             int numeroSecreto = random.Next(1, 16);             // Sorteará um número aleatório entre 1 e 15 (16 não será incluído)
             bool numeroEncontrado = false;                  // não precisaria inicializar a variável numeroEncontrado como false porque false já é o padrão de início, mas ela ainda precisaria ser inicializada antes de alguma validação
-            int tentativasRestantes = 5;
+            int tentativasRestantes = 4;
             int tentativas = 0;
 
             while (tentativasRestantes > 0 && !numeroEncontrado) {

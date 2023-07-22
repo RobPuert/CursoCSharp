@@ -26,3 +26,17 @@ C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcor
 C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.dll
 C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.pdb
 C:\Users\rob_p\source\repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.genruntimeconfig.cache
+D:\Users\rob_p\Source\Repos\CursoCSharp\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.exe
+D:\Users\rob_p\Source\Repos\CursoCSharp\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.deps.json
+D:\Users\rob_p\Source\Repos\CursoCSharp\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.runtimeconfig.json
+D:\Users\rob_p\Source\Repos\CursoCSharp\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.runtimeconfig.dev.json
+D:\Users\rob_p\Source\Repos\CursoCSharp\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.dll
+D:\Users\rob_p\Source\Repos\CursoCSharp\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.pdb
+D:\Users\rob_p\Source\Repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.csproj.AssemblyReference.cache
+D:\Users\rob_p\Source\Repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\rob_p\Source\Repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.AssemblyInfoInputs.cache
+D:\Users\rob_p\Source\Repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.AssemblyInfo.cs
+D:\Users\rob_p\Source\Repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.csproj.CoreCompileInputs.cache
+D:\Users\rob_p\Source\Repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.dll
+D:\Users\rob_p\Source\Repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.pdb
+D:\Users\rob_p\Source\Repos\CursoCSharp\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.genruntimeconfig.cache
