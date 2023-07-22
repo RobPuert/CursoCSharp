@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.Fundamentos {
+namespace CursoCSharp.Fundamentos
+{
     class VariaveisEConstantes {
         public static void Executar() {
             // area da circunferencia

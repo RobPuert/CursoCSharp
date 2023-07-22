@@ -4,7 +4,7 @@ namespace CursoCSharp.Fundamentos
 {
     class Inferencia {
         public static void Executar() {
-            var nome = "Rob"; //Isso funciona. O C# infere, deduz o tipo da variável pelo dado atribuido
+            var nome = "Rob"; //Isso funciona. O C# infere, deduz o tipo da variável pelo dado atribuído
             // nome = 123;  Mas ele continua não permitindo a troca de tipo de dado na mesma variável
             Console.WriteLine(nome);
 
