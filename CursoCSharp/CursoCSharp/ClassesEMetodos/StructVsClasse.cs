@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.ClassesEMetodos {
+namespace CursoCSharp.ClassesEMetodos
+{
     public struct SPonto {
         public int X;
         public int Y;

@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.ClassesEMetodos {
+namespace CursoCSharp.ClassesEMetodos
+{
     public class CarroOpcional {
         double desconto = 0.1;                          // sem public nem private, é private. Iniciamos com letra minúscula por convenção
 
-        string nome;                                    // atributo pivado nome que é acessado através da propriedade Nome abaixo
+        string nome;                                    // atributo privado nome que é acessado através da propriedade Nome abaixo
         public string Nome {                            // Qdo tenta ler esse Nome, ele chama o get abaixo e quando tenta alterar o valor ele automaticamente chama o set
             get {
                 return "Opcional: " + nome;
@@ -20,22 +19,22 @@ namespace CursoCSharp.ClassesEMetodos {
         public double Preco { get; set; }
 
         // Somente leitura
-        public double PrecoComDesconto {
+        public double PrecoComDesconto {                    //  declaramos somente método get aqui porque queremos que seja um atributo de somente leitura
             //get {
             //     return Preco - (desconto * Preco);
             get => Preco - (desconto * Preco);          // Lambda   -  há um return implícito.
         }
-        public CarroOpcional() {
+        public CarroOpcional() {                            // construtor padrão declarado explicitamente para ficar à disposição
 
         }
-        public CarroOpcional(string nome, double preco) {
+        public CarroOpcional(string nome, double preco) {       // construtor não padrão declarado explicitamente
             Nome = nome;
             Preco = preco;
         }
     }
     class Props {
         public static void Executar() {
-            var op1 = new CarroOpcional("Ar Condicionado", 3499.9);
+            var op1 = new CarroOpcional("Ar Condicionado", 3499.9);             // instância da classe CarroOpcional
             Console.WriteLine(op1.PrecoComDesconto);
 
             // op1.PrecoComDesconto = 3000;  -  Impossível porque é somente leitura, não tem método set, somente get

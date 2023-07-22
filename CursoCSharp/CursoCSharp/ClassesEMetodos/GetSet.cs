@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.ClassesEMetodos {
+namespace CursoCSharp.ClassesEMetodos
+{
     public class Moto {
         private string Marca;                       // private é o contrário de public. Public deixa acessível p/ qualquer cód. Private deixa encapsulado.
         private string Modelo;                      // Escrever private não é obrigatório. Se não escrever public, é private automaticamente
@@ -19,7 +18,7 @@ namespace CursoCSharp.ClassesEMetodos {
         public Moto() {
 
         }
-        public string GetMarca() {                      // O tipo do set precisa ser igual ao retorno como em qualquer método. Ele precisa ser público
+        public string GetMarca() {                      // O tipo do get precisa ser igual ao retorno como em qualquer método. Ele precisa ser público
             return Marca;
         }
         public void SetMarca(string marca) {            // Por padrão o método set não retorna nada (void)

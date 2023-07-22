@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.ClassesEMetodos {
+namespace CursoCSharp.ClassesEMetodos
+{
     public enum Genero { Acao, Aventura, Terror, Animacao, Comedia };       // Enum cria como se fosse uma lista. Limitando as opções.
 
     public class Filme {
@@ -16,7 +15,7 @@ namespace CursoCSharp.ClassesEMetodos {
 
             var filmeParaFamilia = new Filme();
             filmeParaFamilia.Titulo = "Sharknado 17";
-            filmeParaFamilia.GeneroDoFilme = Genero.Comedia;    // Como usou enum, não dá para atribuir string nem nada diferente do que esteja no enum aqui
+            filmeParaFamilia.GeneroDoFilme = Genero.Comedia;    // Como usou enum, não dá para atribuir string nem nada diferente do que esteja no enum aqui (limitou opções)
 
             Console.WriteLine("{0} é {1}!", filmeParaFamilia.Titulo, filmeParaFamilia.GeneroDoFilme);
         }

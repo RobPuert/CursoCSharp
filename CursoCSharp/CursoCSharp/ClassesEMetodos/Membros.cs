@@ -9,15 +9,15 @@ namespace CursoCSharp.ClassesEMetodos {
 
             //Console.WriteLine($"{sicrano.Nome} tem {sicrano.Idade} anos.");
 
-            sicrano.ApresentarNoConsole();          //U método para apresentar direto no Console não é tão flexível nem muito usado
+            sicrano.ApresentarNoConsole();          //Um método para apresentar direto no Console não é tão flexível nem muito usado
             sicrano.Zerar();
             sicrano.ApresentarNoConsole();
 
-            var fulano = new Pessoa();              // É possível usar inferência. NEsse caso o C# infere que a variável fulano é do tipo Pessoa
+            var fulano = new Pessoa();              // É possível usar inferência. Nesse caso o C# infere que a variável fulano é do tipo Pessoa
             fulano.Nome = "Beto";
             fulano.Idade = 21;
 
-            var apresentacaoDoFulano = fulano.Apresentar();     // retornar uma string é melhor porque dá pra fqazer o que quiser com ela depois
+            var apresentacaoDoFulano = fulano.Apresentar();     // retornar uma string é melhor porque dá pra fazer o que quiser com ela depois
             Console.WriteLine(apresentacaoDoFulano.Length);
             Console.WriteLine(apresentacaoDoFulano);
         }

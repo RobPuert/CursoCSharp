@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.ClassesEMetodos {
+namespace CursoCSharp.ClassesEMetodos
+{
     class CalculadoraComum {                    // Não podem haver dois métodos com a mesma assinatura (nome E parâmetros) dentro de uma mesma classe.
         public int Somar(int a, int b) {        // public para deixar visível fora da Classe. int antes de Somar para "prometer" um int como retorno
             return a + b;                       // como "prometeu" um retorno (está int e não void), tem que ter return.  a e b são parâmetros de entrada.

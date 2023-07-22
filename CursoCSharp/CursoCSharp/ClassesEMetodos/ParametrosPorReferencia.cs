@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.ClassesEMetodos {
+namespace CursoCSharp.ClassesEMetodos
+{
     class ParametrosPorReferencia {
         public static void AlterarRef(ref int numero) {
             numero = numero + 1000;
@@ -15,7 +14,7 @@ namespace CursoCSharp.ClassesEMetodos {
         }
         public static void Executar() {
             int a = 3;                      // O ref obriga a inicializar a variável na hora de usar para passá-la a outro método
-            AlterarRef(ref a);              // passando ref (Referência de memória), a função vai alterar a para 3 lá em cima e somar 1000 antes de imprimir. Sem ref faria                                     uma cópia de a e imprimiria 3. 
+            AlterarRef(ref a);              // passando ref (Referência de memória), a função vai alterar a para 3 lá em cima e somar 1000 antes de imprimir                                     uma cópia de a e imprimiria 3. 
             Console.WriteLine(a);
 
             // int b;

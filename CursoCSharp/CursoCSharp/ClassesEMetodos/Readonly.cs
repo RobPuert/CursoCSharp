@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.ClassesEMetodos {
+namespace CursoCSharp.ClassesEMetodos
+{
     public class Cliente {
         public string Nome;
         readonly DateTime Nascimento;           // readonly é imutável. Pode ser inicializado no construtor. Const ñ dá pq ela requer inicialização na hora da declaração
                                                // Além disso, Não pode fazer uma const DateTime
-        public Cliente(string nome, DateTime nascimento) {
+        public Cliente(string nome, DateTime nascimento) {    // construtor não padrão definido explicitamente
             Nome = nome;
             Nascimento = nascimento;
         }

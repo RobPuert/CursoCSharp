@@ -30,7 +30,7 @@ namespace CursoCSharp.ClassesEMetodos
             Console.WriteLine("Preço com desconto: {0}", produto1.CalcularDesconto());
             Console.WriteLine("Preço com desconto: {0}", produto2.CalcularDesconto());
 
-            Produto.Desconto = 0.5;                                             // static = Desconto NA Classe então valerá para todos os produtos.            
+            Produto.Desconto = 0.5;                                             // static = Desconto NA Classe então valerá para todos os produtos.        
         }
     }
 }

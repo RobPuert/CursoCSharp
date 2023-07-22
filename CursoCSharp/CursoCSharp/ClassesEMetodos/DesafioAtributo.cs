@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.ClassesEMetodos {
+namespace CursoCSharp.ClassesEMetodos
+{
     class DesafioAtributo {
         int a = 10;                                                    // atributo de instância (não é static). Não é um atributo da classe
         public static void Executar() {                              // método que pertence à Classe (static) e não consegue acessar o atributo de instância            

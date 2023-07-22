@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.ClassesEMetodos {
+namespace CursoCSharp.ClassesEMetodos
+{
     class Carro {
         public string Modelo;                       // Atributos da Classe precisam ter a 1ª letra maiúscula
         public string Fabricante;

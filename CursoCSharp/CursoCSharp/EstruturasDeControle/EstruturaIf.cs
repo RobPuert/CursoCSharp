@@ -15,7 +15,7 @@ namespace CursoCSharp.EstruturasDeControle
             entrada = Console.ReadLine();
 
             //if (entrada == "S" || entrada == "s")           
-            //    bomComportamento = true;                // Como é uma única sentença de código, não precisa de chaves no if. Não precisa de else porque comComportamento já inicia false
+            //    bomComportamento = true;                // Como é uma única sentença de código, não precisa de chaves no if. Não precisa de else porque bomComportamento já inicia false
 
             //bomComportamento = entrada == "S" || entrada == "s";    //bomComportamento receberá true se entrada for s ou S. Senão permanece false como definido anteriormente
             bomComportamento = entrada.ToLower() == "s";        // passa o S para minúsculo se for digitado maiúsculo. Compara c/ minúsculo para atribuir true. Se for diferente, fica o false definido anteriormente

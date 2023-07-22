@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.ClassesEMetodos {
+namespace CursoCSharp.ClassesEMetodos
+{
     class ParametroPadrao {
         public static int Somar(int a = 1, int b = 1) {     // a e b receberão o valor 1 como padrão caso o valor não seja informado (ref e out não podem ter padrão)
             return a + b;

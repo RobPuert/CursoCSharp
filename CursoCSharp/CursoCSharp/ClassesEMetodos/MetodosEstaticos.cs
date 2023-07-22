@@ -3,7 +3,7 @@
 namespace CursoCSharp.ClassesEMetodos
 {
     public class CalculadoraEstatica {
-        public static int Multiplicar(int a, int b) {       // static significa que esse método não pertence mais ao Objeto e sim a Classe
+        public static int Multiplicar(int a, int b) {       // static significa que esse método não pertence mais ao Objeto e sim a Classe. Chamaremos esse método direto da classe.
             return a * b;
         }
         public int Somar(int a, int b) {         // public = método visível para qualquer outro código acessar, retorno tipo (int), nome (Somar), parâmetros

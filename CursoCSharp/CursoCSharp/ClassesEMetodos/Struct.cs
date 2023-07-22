@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace CursoCSharp.ClassesEMetodos {
+namespace CursoCSharp.ClassesEMetodos
+{
     interface Ponto {
         void MoverNaDiagonal(int delta);            // Métodos de interface não podem ser privados. Por padrão são sempre públicos.
     }
 
-    struct Coordenada: Ponto {                      // Definindo atributos da Struct
+    struct Coordenada: Ponto {                      // Definindo atributos da Struct. O Struct está atrelado à interface Ponto
         public int X;
         public int Y;
 
