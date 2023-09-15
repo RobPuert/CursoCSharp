@@ -18,3 +18,9 @@ namespace CursoCSharp.ClassesEMetodos
         }
     }
 }
+
+// C# é baseado em classes. As classes são os tipos. int e string por exemplo são classes (int na verdade é uma Struct, mas é semelhante à uma classe)
+// Então quando você cria uma classe, está criando um tipo personalizado.
+// Por isso que instanciamos a classe de forma parecida à declaração de uma variável.
+// variável: string nome = "Robson"
+// classe: Pessoa sicrano = new Pessoa();

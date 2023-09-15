@@ -5,7 +5,7 @@ namespace CursoCSharp.EstruturasDeControle
     class EstruturaDoWhile {
         public static void Executar() {
             /* Enquanto o while tem chance de nunca ser executado caso a expressão nunca seja true, o Do while sempre executará o bloco de código
-             * do "Do" pelo menos uma vez.  Do While é a única estrutura de repecitção em C# que exige chaves e é a única em que o bloco de código
+             * do "Do" pelo menos uma vez.  Do While é a única estrutura de repetição em C# que exige chaves e é a única em que o bloco de código
              * vem antes da expressão. */
 
             string entrada;

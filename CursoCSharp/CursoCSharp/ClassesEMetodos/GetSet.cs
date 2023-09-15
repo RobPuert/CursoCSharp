@@ -2,16 +2,16 @@
 
 namespace CursoCSharp.ClassesEMetodos
 {
-    public class Moto {
-        private string Marca;                       // private é o contrário de public. Public deixa acessível p/ qualquer cód. Private deixa encapsulado.
-        private string Modelo;                      // Escrever private não é obrigatório. Se não escrever public, é private automaticamente
+    public class Moto {                             // Public deixa essa classe acessível p/ qualquer cód. fora do namespace.
+        private string Marca;                       // Private deixa os atributos encapsulados dentro da classe.
+        private string Modelo;                      // Escrever private não é obrigatório. Se não escrever public, é automaticamente private
         private uint Cilindrada;                    // Colocamos uint aqui para não permitir números negativos
 
         public Moto(string marca, string modelo, uint cilindrada) {
             //Marca = marca;
             //Modelo = modelo;
             //Cilindrada = cilindrada;
-            SetMarca(marca);                            // Passando os atributos com Set no construtor obriga a passar pelas regras do método Set da Classe
+            SetMarca(marca);                        // Passando os atributos com Set no construtor obriga a passar pelas regras do método Set da Classe
             SetModelo(modelo);
             SetCilindrada(cilindrada);
         }
@@ -21,10 +21,10 @@ namespace CursoCSharp.ClassesEMetodos
         public string GetMarca() {                      // O tipo do get precisa ser igual ao retorno como em qualquer método. Ele precisa ser público
             return Marca;
         }
-        public void SetMarca(string marca) {            // Por padrão o método set não retorna nada (void)
+        public void SetMarca(string marca) {            // Por padrão o método set não retorna nada (void). Ele tbm precisa ser public
             Marca = marca;
         }
-        public string GetModelo() {                     // Ele precisa ser público
+        public string GetModelo() {
             return Modelo;
         }
         public void SetModelo(string modelo) {

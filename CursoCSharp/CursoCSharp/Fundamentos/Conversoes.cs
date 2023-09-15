@@ -29,7 +29,7 @@ namespace CursoCSharp.Fundamentos
 
             Console.Write("Digite o segundo número: ");
             int.TryParse(Console.ReadLine(), out int numero2);        // Nesse caso, a variável numero do tipo int foi criada dentro do TryParse e O input tbm dispensou                                                            a variável palavra
-            Console.WriteLine($"Resultado 2: {numero2}");               //Aqui ele tenta converter para inteiro. Se não for possível (ex.: digitaram um texto), retorna 0
+            Console.WriteLine($"Resultado 2: {numero2}");             // Aqui ele tenta converter para inteiro. Se não for possível (ex.: digitaram um texto), retorna 0
         }
     }
 }

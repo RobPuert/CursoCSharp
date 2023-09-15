@@ -13,7 +13,7 @@ namespace CursoCSharp.EstruturasDeControle
                 Console.WriteLine($"{i} é o número que queremos?");
                 if (i == numero) {
                     Console.WriteLine("Sim!");
-                    break;                          // Sem o break ele responderia Sim quando achasse o número mais continuaria percorrendo o for até o 50
+                    break;                          // Sem o break ele responderia "Sim" quando achasse o número, mas continuaria percorrendo o for até o 50
                 } else {                            // O break quebra o laço (for), não o if
                     Console.WriteLine("Não!");
                 }

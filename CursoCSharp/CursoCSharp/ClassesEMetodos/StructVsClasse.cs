@@ -13,7 +13,7 @@ namespace CursoCSharp.ClassesEMetodos
     }
     class StructVsClasse {
         public static void Executar() {
-            SPonto ponto1 = new SPonto { X = 1, Y = 3 };             //  ponto do tipo struct.  Em struct sempre há atribuição por valor
+            SPonto ponto1 = new SPonto { X = 1, Y = 3 };             // ponto do tipo struct.  Em struct sempre há atribuição por valor
             SPonto copiaPonto1 = ponto1;                            //Atribuição por valor. Uma cópia do valor foi para a var cópia e mexer em um não altera o outro
             ponto1.X = 3;
             

@@ -2,7 +2,7 @@
 
 namespace CursoCSharp.ClassesEMetodos
 {
-    public enum Genero { Acao, Aventura, Terror, Animacao, Comedia };       // Enum cria como se fosse uma lista. Limitando as opções.
+    public enum Genero { Acao, Aventura, Terror, Animacao, Comedia };       // Enum cria como se fosse uma lista. Limitando as opções. É indexado.
 
     public class Filme {
         public string Titulo;

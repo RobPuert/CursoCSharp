@@ -24,7 +24,7 @@ namespace CursoCSharp.ClassesEMetodos
             Dependente copiaDep = dep;
 
             Console.WriteLine($"{ dep.Nome} { copiaDep.Nome}");
-            Console.WriteLine($"{ dep.Idade} { copiaDep.Idade}");       // Dentro da class, mesmo os int fazem atribuição por referência de memória.
+            Console.WriteLine($"{ dep.Idade} { copiaDep.Idade}");       // Dentro da class, mesmo os int fazem atribuição por referência de memória. Substitui em vez de criar cópia.
 
             copiaDep.Nome = "Renato";
             dep.Idade = 21;
